@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(12, 6, 46);
+}
+
+button {
+  padding: 2rem;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  background-color: rgb(75, 75, 235);
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(75, 75, 235);
+  background-color: rgb(210, 210, 234);
+}
+
+.title-container {
+  margin-top: 3rem;
+}
+
+.title-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  width: 100%;
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.category-card {
+  width: 20rem;
+  height: 40rem;
+  background-color: rgb(20, 16, 45);
+}
+
+.category-img {
+  width: 80%;
+  height: 20rem;
+  object-fit: contain;
+  object-position: center;
+  margin: auto;
+}
+
+.category-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.category-button {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.content-card {
+  border: 1px solid white;
+  width: 15rem;
+  height: 25rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(20, 16, 45);
+}
+
+.content-name {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.content-data {
+  margin-top: 0.5rem;
+}
+
+.button-container {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
